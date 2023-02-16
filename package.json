@@ -18,11 +18,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "helmet": "^6.0.1",
-    "morgan": "^1.10.0"
+    "mongodb": "^5.0.1",
+    "morgan": "^1.10.0",
+    "zod": "^3.20.6"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
@@ -33,7 +36,6 @@
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
-    "eslint": "^8.32.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.27.5",
